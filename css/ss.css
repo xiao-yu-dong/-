@@ -1,0 +1,82 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+html, body {
+	background: #EAEAEA;
+}
+#all{
+	width: 1440px;
+	margin: 0 auto;
+	border: 1px solid black;
+}
+#head{
+	width: 1440px;
+	float: left;
+}
+.head-top{
+	width: 900px;
+	float: left;
+	margin-left: 510px;
+}
+.head-top ul li{
+	list-style-type: none;
+	float: left;
+}
+.head-top a{
+	text-decoration: none;
+	color: black;
+}
+.head-top a:hover{
+	color: red;
+}
+.banner{
+	width: 1440px;
+	float: left;
+}
+.banner img{
+	width: 1440px;
+	height: 500px;
+}
+#middle{
+	float: left;
+	width: 1440px;
+	margin-top: 60px;
+}
+.nr{
+	padding: 30px 50px;
+}
+#footer{
+	width: 1440px;
+	height: 40px;
+	float: left;
+	background-color: black;
+	border-radius:25px 25px 0 0 ;
+	
+}
+#list .Dark {
+	/*width: 100%;*/
+	height: 95%;
+	margin-top: 1.5%;
+	/*border: 1px solid;*/
+	/*box-sizing: border-box;*/
+	/*background: #EAEAEA;*/
+	position: relative;
+}
+.Dark table {
+	margin: 0 auto;
+}
+.Dark table th, .Dark table td {
+	width: 150px;
+	height: 50px;
+	text-align: center;
+	line-height: 50px;
+	border: 1px solid;
+}
+.Dark table th {
+	background: #999999;
+}
+.Dark table td {
+	background: #EAEAEA;
+}
+

@@ -1,0 +1,124 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+html, body {
+	background: #EAEAEA;
+}
+#all{
+	width: 1440px;
+	margin: 0 auto;
+	border: 1px solid black;
+}
+#head{
+	width: 1440px;
+	float: left;
+}
+.head-top{
+	width: 900px;
+	float: left;
+	margin-left: 510px;
+}
+.head-top ul li{
+	list-style-type: none;
+	float: left;
+}
+.head-top a{
+	text-decoration: none;
+	color: black;
+}
+.head-top a:hover{
+	color: red;
+}
+.banner{
+	width: 1440px;
+	float: left;
+}
+.banner img{
+	width: 1440px;
+	height: 500px;
+}
+#middle{
+	float: left;
+	width: 1440px;
+	margin-top: 60px;
+}
+.middle-left{
+	width: 300PX;
+	float: left;
+	height: 700px;
+	background-color: skyblue;
+	border-right: 1px solid black;
+	
+}
+.middle-left ul li{
+	list-style-type: none;
+	text-align: center;
+	padding: 10px 0;
+	cursor: pointer;
+}
+.middle-left ul li:hover {
+	background: blue;
+}
+.middle-right{
+	width: 900px;
+	float: left;
+	height: auto;
+	margin-left: 70px;
+}
+.right-01{
+	position: absolute;
+	display: block;
+}
+.right-02{
+	position: absolute;
+	display: none;
+}
+.right-02 ul li{
+	list-style-type: none;
+	float: left;
+}
+.right-02 ul{
+	margin-top: 20px;
+	margin-left: 140px;
+}
+
+.right-02 img{
+	width: 210px;
+	height: 210px;
+}
+.right-03{
+	position: absolute;
+	/*opacity: 1;*/
+}
+.right-03 ul li{
+	list-style-type: none;
+}
+.right-03 img{
+	width:210px;
+	height: 210px;
+}
+#list .Dark {
+	width: 100%;
+	height: 95%;
+	margin-top: 1.5%;
+	border: 1px solid;
+	box-sizing: border-box;
+	background: #EAEAEA;
+	position: relative;
+}
+.Dark table {
+	width: 900px;
+}
+.Dark table th, .Dark table td {
+	width: 150px;
+	height: 50px;
+	text-align: center;
+	line-height: 50px;
+	border: 1px solid;
+}
+.Dark table th {
+	background: #999999;
+}
+
+
